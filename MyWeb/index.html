@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-Up Form</title> 
+    </head>
+    <body style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;">
+        <header>
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account!</p>
+            <hr>
+        </header>
+        <main>
+            <form>
+            <div class="main">
+                <div class="name">
+                
+                        <input type="text" name="fname" placeholder="First Name" required>
+            
+                    
+                        <input type="text" name="lname" placeholder="Last Name" required>
+            
+                </div>
+                <br>
+                <div class="radio">
+                    
+                        <input type="radio" name="gender" value="male" id="male" checked><label for="male">Male</label>
+                
+                    
+                        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                    
+                    
+                        <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+            
+                    
+                </div>
+                <br>
+                <div>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <br>
+                <div>
+                    <input type="password" name="pass" placeholder="Password" required>
+                </div>
+                <br>
+                <div>
+                    <input type="password" name="cPass" placeholder="Confirm Password" required>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="agree" value="true" required>
+                    I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a> 
+                </div>
+                <br>
+                <div>
+                    <p>Hobbies:</p>
+                    <input type="checkbox" id="hobbie" name="hobbie" value="Reading">
+                    <label for="hobbie">Reading</label><br>
+                    <input type="checkbox" id="hobbie2" name="hobbie" value="Music">
+                    <label for="hobbie2">Music</label><br>
+                    <input type="checkbox" id="hobbie3" name="hobbie" value="Codding">
+                    <label for="hobbie3" >Codding</label>
+
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Sign up</button>
+                </div>
+
+                    
+                    
+            
+            
+            </div>
+            </form>
+        </main>
+    </body>
+</html>
